@@ -84,6 +84,7 @@ Edit your Wi-Fi and Blynk credentials in the `.ino` file:
 #define BLYNK_AUTH_TOKEN "Your_Blynk_Auth_Token"
 const char ssid[] = "Your_WiFi_Name";
 const char pass[] = "Your_WiFi_Password";
+```
 
 ---
 
