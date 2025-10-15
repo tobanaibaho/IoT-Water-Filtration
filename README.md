@@ -84,3 +84,77 @@ Edit your Wi-Fi and Blynk credentials in the `.ino` file:
 #define BLYNK_AUTH_TOKEN "Your_Blynk_Auth_Token"
 const char ssid[] = "Your_WiFi_Name";
 const char pass[] = "Your_WiFi_Password";
+
+
+---
+
+## 🧪 Simulation (Wokwi)
+
+To simulate your project without hardware:
+
+1. Visit [https://wokwi.com](https://wokwi.com)
+2. Create a new **Arduino Uno Project**
+3. Add simulated components:
+   - DS18B20 sensor
+   - 2 potentiometers (simulate pH & TDS)
+4. Paste your code from `FINAL_CODE.ino`
+5. Open Serial Monitor → Observe sensor readings in real time.
+
+---
+
+## 📊 Data Logging (PLX-DAQ)
+
+1. Open `PLX-DAQ-v2.xlsm` in Excel  
+2. Enable **Macros**
+3. Set the correct **COM port**
+4. Click **Connect**
+5. Your real-time data (Date, Time, Temperature, pH, TDS) will start logging automatically.
+
+**Example Serial Output:**
+Suhu: 26.45 °C
+TDS: 512 ppm
+pH: 7.02
+DATA,DATE,TIME,26.45,7.02,512
+
+---
+
+## 🚀 Upload Steps
+
+1. Connect Arduino to PC via USB  
+2. Open `FINAL_CODE.ino` in Arduino IDE or VS Code  
+3. Select **Board:** Arduino Uno  
+4. Select **Port:** COMx  
+5. Click **Upload**
+
+---
+
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE)  
+— feel free to modify and use it for educational or research purposes.
+
+---
+
+## 🤝 Contributors
+
+| Name | Role |
+|------|------|
+| **Toba Jordi Naibaho** | Developer / Researcher |
+| **Open Source Community** | Testing & Feedback |
+
+---
+
+## 🌱 Future Improvements
+
+- Add automatic **relay control** for water filtering system  
+- Use **MQTT or Firebase** for real-time dashboards  
+- Implement **mobile app alerts** for abnormal pH/TDS readings  
+
+---
+
+> _“Smart water monitoring today, cleaner future tomorrow.”_ 🌏
+
+
