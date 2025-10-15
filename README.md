@@ -1,7 +1,7 @@
 # 💧 IoT Water Filtration System
 
-[![GitHub Stars](https://img.shields.io/github/stars/tobajordi/IoT-Water-Filtration?style=flat-square)](https://github.com/tobajordi/IoT-Water-Filtration/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/tobajordi/IoT-Water-Filtration?style=flat-square)](https://github.com/tobajordi/IoT-Water-Filtration/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/tobanaibaho/IoT-Water-Filtration?style=flat-square)](https://github.com/tobanaibaho/IoT-Water-Filtration/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/tobanaibaho/IoT-Water-Filtration?style=flat-square)](https://github.com/tobanaibaho/IoT-Water-Filtration/network/members)
 [![GitHub License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Made with Arduino](https://img.shields.io/badge/Made%20with-Arduino-blue?style=flat-square&logo=arduino)](https://www.arduino.cc/)
 [![Powered by Blynk](https://img.shields.io/badge/Powered%20by-Blynk-green?style=flat-square&logo=blynk)](https://blynk.io)
