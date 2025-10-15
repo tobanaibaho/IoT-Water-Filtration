@@ -85,7 +85,6 @@ Edit your Wi-Fi and Blynk credentials in the `.ino` file:
 const char ssid[] = "Your_WiFi_Name";
 const char pass[] = "Your_WiFi_Password";
 
-
 ---
 
 ## 🧪 Simulation (Wokwi)
